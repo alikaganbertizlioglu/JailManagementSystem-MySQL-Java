@@ -28,28 +28,8 @@ The database system will include the following entities:
 - **Visits**: `visitID`, `peopleID`, VisitingReason, visitingDate
 - **PrisonerProblems**: `problemID`, problemType, problemDescription, `peopleID`
 
-### Primary Keys
-Primary keys are uniquely identifying their respective tables and are marked in **bold**:
-
-- **People**: `**peopleID**`
-- **Guards**: `**peopleID**`
-- **Prisoners**: `**peopleID**`
-- **Staff**: `**peopleID**`
-- **StaffPositions**: `**positionID**`
-- **PrisonerStaff**: `**peopleID**`
-- **PrisonerPositions**: `**prisonerPositionID**`
-- **Cells**: `**cellID**`
-- **CriminalCases**: `**caseID**`
-- **OldPrisoners**: `**peopleID**`
-- **Visitors**: `**peopleID**`
-- **Visits**: `**visitID**`
-- **PrisonerProblems**: `**problemID**`
-
-### Foreign Keys
-Foreign keys establish meaningful connections between tables, ensuring data integrity. Key relationships are as follows:
-
-- `peopleID` in **People** has a foreign key relationship with `peopleID` in **Staff**, **Guards**, **Prisoners**, and **Visitors**.
 
 #### Entity-Relationship Diagram (ERD)
-The ERD outlines the relationships and foreign keys among the tables. (Include a visual ER diagram here if possible)
+![Entity Relationship Diagram](https://github.com/alikaganbertizlioglu/JailManagementSystem-MySQL-Java/assets/93092438/73f01eee-c6a3-4dfc-99a5-065d9351f973)
+
 
